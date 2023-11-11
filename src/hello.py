@@ -1,10 +1,10 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import plotly.express as px 
+import plotly.express as px
 import seaborn as sns
 from dotenv import load_dotenv
-import argparse 
+import argparse
 
 load_dotenv()
 
@@ -14,6 +14,6 @@ def some_func():
 
 
 if __name__ == "__main__":
-    file = "mnt/c/Users/LENOVO/Downloads"
+    file = "mnt/c/Users/LENOVO/Downloads/n26-csv-transactions"
 
-    df= pd.read_csv(file)
+    df = pd.read_csv(file)
